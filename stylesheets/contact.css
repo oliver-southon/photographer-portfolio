@@ -23,17 +23,17 @@ body {
 
 header {
     grid-area: header;
-    background: dodgerblue;
+    background: lightgray;
 }
 
 main {
     grid-area: main;
-    background-color: firebrick;
+    background-color: white;
 }
 
 footer {
     grid-area: footer;
-    background-color: fuchsia;
+    background-color: white;
 }
 
 /* Header */

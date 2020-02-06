@@ -22,17 +22,17 @@ body {
 
 header {
     grid-area: header;
-    background: dodgerblue;
+    background: lightgray;
 }
 
 main {
     grid-area: main;
-    background-color: firebrick;
+    background-color: white;
 }
 
 footer {
     grid-area: footer;
-    background-color: fuchsia;
+    background-color: white;
 }
 
 /* Header */
@@ -90,6 +90,13 @@ header nav ul li a:hover:not(.active) {
 }
 
 /* Main Styles */
+#gallery {
+    width: 900px;
+    height: auto;
+    padding: 0;
+    margin: 1em auto 1em auto;
+    background: white;
+}
 
 /* Footer Styles */
 footer {
