@@ -1,0 +1,73 @@
+html {
+    box-sizing: border-box;
+  }
+  * {
+    box-sizing: inherit;
+  }
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* DIV styles */
+
+.thankyou-message {
+    padding: 0;
+    display: block;
+    border: 1px solid teal;
+    margin: 2em auto auto auto
+}
+
+.thankyou-message h1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 3em;
+}
+
+.thankyou-message p {
+    font-style: italic;
+    text-align: center;
+}
+
+.back-button {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn {
+    border-radius: 6px;
+    border: none;
+    font-size: 1em;
+    padding: 8px;
+    cursor: pointer;
+    transition: all 0.5s;
+    background-color: teal;
+}
+
+.btn span {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    transition: 0.5s;
+    color: white;
+}
+
+.btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btn:hover span {
+    padding-right: 25px;
+}
+
+.btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
